@@ -1,123 +1,138 @@
-# 🛡️ Awesome-Intellectual-Property-Infringement-Monitors
+# 🛡️ Awesome Intellectual Property Infringement Monitors
 
-## 🌐 Top Intellectual Property Infringement Monitors Ecosystem
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Intellectual Property Infringement Monitors Banner" width="100%" />
+</p>
 
-**Curated List of SaaS Products & Open-Source GitHub Projects**  
-*Focused on Brand Protection, Copyright Detection & IP Enforcement Automation*  
-
-📅 **Last updated: October 2026**
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Intellectual Property Infringement Monitors**. These tools enable brand owners and rights holders to detect counterfeit domains, track copyright violations, monitor typosquatting across package registries, and automate takedown workflows—isolating infringement across web, social, and AI model outputs.
-
-🌟 **Examples** include Red Points, Corsearch, BrandShield, MarqVision, Smart Protection, AppDetex, Pointer Brand Protection, PhishLabs, OpSec Security, and ZeroFox (the category leaders).
-
-🔓 **Open-source emphasis**: This section is heavily expanded with every major active project for self-hosting, domain permutation detection, and open code plagiarism engines—ideal for brand protection teams, educators, and developers seeking transparent, vendor-independent IP monitoring.
-
-🤝 Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-## 📑 Table of Contents
-
-- [☁️ SaaS/Hosted Platforms](#️-saashosted-platforms)
-- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
-- [🤝 How to Contribute](#-how-to-contribute)
-- [⚠️ Disclaimer](#️-disclaimer)
-
-## ☁️ SaaS/Hosted Platforms
-
-- **[Red Points](https://www.redpoints.com/)** 🎯  
-  Brand protection platform with automated detection and takedown of counterfeits across marketplaces, social media, and websites. Features AI-powered image recognition and enforcement automation.
-
-- **[Corsearch](https://corsearch.com/)** 🔍  
-  Trademark and brand protection platform with **TrademarkNow** for lifecycle management and content protection across platforms. Combats piracy for books, video games, music, and film.
-
-- **[BrandShield](https://www.brandshield.com/)** 🛡️  
-  Digital risk protection platform with brand monitoring, counterfeit detection, and automated takedown.
-
-- **[MarqVision](https://marqvision.com/)** 🤖  
-  AI-powered brand protection for e-commerce. Features automated detection and takedown of counterfeits and IP violations.
-
-- **[Smart Protection](https://smartprotection.com/)** 🌐  
-  Global brand protection and anti-piracy platform. Features detection and removal of unauthorized content and counterfeit products.
-
-- **[AppDetex](https://www.appdetex.com/)** 📱  
-  Brand protection for app stores and digital channels. Features detection of fake apps and unauthorized brand use.
-
-- **[Pointer Brand Protection](https://www.pointerbrandprotection.com/)** 🔎  
-  Brand protection services with online monitoring, enforcement, and investigations.
-
-- **[PhishLabs](https://www.phishlabs.com/)** 🎣  
-  Digital risk protection with phishing detection, brand abuse monitoring, and takedown services.
-
-- **[OpSec Security](https://www.opsecsecurity.com/)** 🔐  
-  Brand protection and anti-counterfeiting solutions. Features physical authentication and digital monitoring.
-
-- **[ZeroFox](https://www.zerofox.com/)** 🦊  
-  External cybersecurity platform with brand protection, social media monitoring, and digital risk detection.
-
-## 💻 Open-Source GitHub Projects
-
-- **[SheriffMark](https://github.com/arunprasad/sheriffmark)** 🤠  
-  **Open-source brand-protection monitoring** (AGPL-3.0) that watches for newly created domains resembling your brand—typosquats, lookalikes, and combosquats—with evidence to support enforcement action. **The most complete open-source domain monitoring platform available.** Self-host on any cloud or none at all with SQLite by default (Postgres opt-in), SMTP, and built-in email/password auth (plus optional OIDC/SAML SSO). One process on one port serves both API and UI. **The most practical open-source alternative to commercial domain monitoring services.**
-
-- **[risk-monitor-tool](https://github.com/muzammilmunir/risk-monitor-tool)** 📊  
-  **Open-source brand protection and risk monitoring tool** with domain management, social media monitoring, and trademark search. Features **TLD checking**, **typosquatting detection via domain permutations**, **blacklist checking**, **spam score analysis**, **social media profile detection** (Sherlock integration), and **trademark violation search**. Built with Vercel/Docker deployment. **The most feature-complete open-source brand risk dashboard available.**
-
-- **[brandguard](https://github.com/Baneado98/brandguard)** 📦  
-  **Open-source brand impersonation and typosquat monitor for npm, PyPI, and GitHub** (MIT). **The most focused open-source tool for supply-chain brand protection.** Scans package registries for typosquatting packages and repos, each risk-scored, plus a ready-to-review **takedown / trademark-notice draft**. Uses calibrated scoring—`LIKELY_ABUSE` only raised with signal beyond name match; bare name matches are `SUSPECT` → human review. Available as free HTTP API, MCP server, and pay-per-call via x402 (USDC on Base). **The most AI-agent-ready open-source brand monitor.**
-
-- **[dnstwist](https://github.com/elceef/dnstwist)** 🌀  
-  **The most widely adopted open-source domain permutation engine** (Apache-2.0) for detecting homograph phishing attacks, typosquatting, and brand impersonation. **5,274+ GitHub stars**. Generates domain permutations across keyboard shifts, homoglyphs, TLD swaps, and more. **The foundational tool for open-source domain brand monitoring.**
-
-- **[openSquat](https://github.com/atenreiro/opensquat)** 📡  
-  **Open-source tool for detecting domain look-alikes** by searching for newly registered domains that might be impersonating legitimate brands. **819+ GitHub stars**. Monitors certificate transparency logs and newly registered domain feeds. **The most accessible open-source tool for proactive domain monitoring.**
-
-- **[domainthreat](https://github.com/PAST2212/domainthreat)** 🚨  
-  **Newly registered domain monitoring** to detect phishing and brand impersonation with subdomain enumeration and source code scraping (open-source). **The most investigation-focused open-source domain threat tool.**
-
-- **[Copyscale](https://github.com/aneenajosan/Copyscale)** 🧠  
-  **Open-source multi-layer neural network analysis system** designed to detect if AI models were trained on copyrighted content (open-source). **The most comprehensive open-source tool for AI training data copyright detection.** Features **multi-test image analysis** (direct copy detection, style match, content similarity, weighted risk assessment), **video content protection** (frame-by-frame analysis), **copyright database** (fingerprints via ResNet50), and **interactive radar charts and heatmaps**. **The most focused open-source tool for detecting IP used in AI training.**
-
-- **[Dolos](https://github.com/dodona-edu/dolos)** 🎓  
-  **Open-source source code plagiarism detection tool** (open-source, Ghent University) for programming exercises. **The standard open-source code plagiarism detector for educators.** Uses state-of-the-art algorithms to discover plagiarism even when code is modified. Web app with intuitive UI, CLI, and JavaScript library. Self-hostable via Docker. **The most mature open-source code plagiarism engine.**
-
-- **[Sieve Scope](https://pypi.org/project/sieve-scope/)** 🔬  
-  **Fully local, zero-dependency, deterministic code plagiarism and structural similarity detection engine** (open-source). **The most explainable open-source code plagiarism detector available.** Observes two axes independently: **AST (Abstract Syntax Tree)** for logic skeleton and **tokenize** for identifier vocabulary. Uses **7-bit observation space (H1-H7)** with LUT patterns for explainable judgments (EXACT_CLONE, VARIABLE_LAUNDERING, COINCIDENTAL_FRAMEWORK_MATCH, INDEPENDENT_LOGIC). **100% reproducible**—no external packages, no API costs, no probabilistic elements. **The most transparent open-source code similarity engine.**
-
-- **[csim-ai](https://pypi.org/project/csim-ai/)** 🧬  
-  **Neural-augmented Python code plagiarism detection** for programming judges (open-source). Successor to csim (ANTLR4 parse-tree normalization + Tree Edit Distance), adding a contrastively fine-tuned bi-encoder for structural/semantic plagiarism cases where pure TED similarity degrades. Scores are a fusion via GBDT, verified to beat Dolos on this project's test data. **The most advanced open-source code plagiarism detector available.**
-
-### 📚 Additional Strong Open-Source Options
-
-- **[homographic_spoofing (Basecamp)](https://github.com/basecamp/homographic_spoofing)** — Toolkit to detect and sanitize homographic spoofing attacks in URLs and email addresses (Ruby, 113 GitHub stars) .
-- **[UniMark](https://ar5iv.labs.arxiv.org/html/2512.12324)** — AI-generated content identification toolkit with unified engine for multimodal watermarking (open-source) .
-- **[ROBIN++](https://github.com/Hannah1102/ROBIN)** — Unified copyright protection and tamper localization for diffusion models via dual-domain synergistic watermarking (IEEE 2026) .
-- **[semantic-copycat-minner](https://packages.ecosyste.ms/registries/pypi.org/packages/semantic-copycat-minner)** — Semantic analysis tool for detecting AI-generated code derived from copyrighted sources (open-source) .
-- **[nettfiske](https://github.com/wisespace-io/nettfiske)** — Detect phishing fetching Certificate Transparency Logs (open-source) .
-- Community **n8n** workflows for brand alert routing and takedown workflow automation.
-
-🧩 **Frameworks for building custom systems**: Combine **SheriffMark** or **risk-monitor-tool** for domain and social monitoring with **brandguard** for package registry typosquat detection, **dnstwist** for permutation generation, **Copyscale** for AI training data copyright detection, **Dolos** or **Sieve Scope** for code plagiarism, and **PostgreSQL** for persistence—creating a fully self-hosted, enterprise-grade IP infringement monitoring platform.
-
-## 🤝 How to Contribute
-
-1. 🍴 Fork the repo.
-2. ✍️ Add/edit entries in `README.md` (follow existing format).
-3. 📝 Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-4. 🚀 Submit PR with a short explanation.
-
-⭐ Star the repo if you find it useful!
-
-## ⚠️ Disclaimer
-
-- 📌 This is a **community-curated** list — not exhaustive and not an endorsement.
-- ⚖️ IP infringement monitoring systems handling brand and copyright data must comply with applicable intellectual property laws and data protection regulations. **Legal review and qualified IP counsel remain essential**—tools support detection, not legal enforcement.
-- 🔓 **Open-source IP monitoring is mature for domain protection but emerging for AI training data detection.** SheriffMark, risk-monitor-tool, brandguard, dnstwist, and openSquat provide production-grade domain, social, and package registry monitoring. Copyscale provides the most focused open-source approach to detecting IP used in AI training. **No single open-source tool provides the end-to-end marketplace counterfeit takedown of Red Points or Corsearch.** Integration work is required.
-- 🤖 **Detecting copyrighted content in AI model outputs is fundamentally hard.** Research shows that existing plagiarism detection systems rely on word- and sentence-level direct similarity, but generative AI can evade detection through semantic restructuring and contextual narrative shifts—raising the risk of "content that is factually imitated but remains undetected". Watermarking is the most widely used defense, with Google DeepMind, Meta, and Amazon introducing watermarking since 2023. **Copyscale's multi-layer neural analysis and ROBIN++'s dual-domain watermarking represent the state of the art in open-source detection**.
-- 📄 **Takedown notices are drafts, not filings.** brandguard explicitly states: "brandguard **reports** from public sources. It **does not file claims** on anyone's behalf and is **not a law firm or your agent**. The takedown notice is a _draft_ for the rights-holder to review, complete and file themselves". **The rights-holder remains legally responsible for enforcement actions.**
-- 🔍 **Code plagiarism detection requires explainability.** Sieve Scope's 7-bit observation space (AST skeleton, identifier vocabulary, positional/order, constants, vocabulary context) provides explainable judgments that distinguish variable laundering from coincidental framework matches—critical when accusations have academic or professional consequences.
-- 🔒 Self-hosted open-source solutions require proper security hardening, evidence preservation, and ongoing maintenance. IP infringement monitoring is evidence-gathering infrastructure—audit trails and chain-of-custody matter for enforcement proceedings.
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Intellectual-Property-Infringement-Monitors/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Intellectual-Property-Infringement-Monitors?style=flat-square&logo=github&color=gold" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Intellectual-Property-Infringement-Monitors/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Intellectual-Property-Infringement-Monitors?style=flat-square&logo=github&color=blue" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Intellectual-Property-Infringement-Monitors/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Intellectual-Property-Infringement-Monitors?style=flat-square" alt="License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
 ---
 
-**Made for brand protection teams, IP counsel, educators, and developers building transparent infringement monitoring solutions.**  
-Let's make Intellectual Property Infringement Monitoring more open, data-driven, and evidence-preserving.
+## 📖 Overview
 
+A definitive, SEO-optimized curated directory of enterprise **SaaS platforms**, AI brand safety solutions, and **open-source tools** engineered for **Intellectual Property (IP) Infringement Monitoring**, counterfeit detection, domain squatting investigation, copyright tracking, and digital risk protection (DRP).
+
+Whether safeguarding enterprise trademarks, investigating typosquatting in package registries (npm/PyPI), detecting code plagiarism, or uncovering copyright infringement across multimodal AI training corpora, this ecosystem directory catalogs both industry standard solutions and community-built open-source security toolkits.
+
+---
+
+## 📑 Table of Contents
+
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [☁️ SaaS & Hosted Enterprise Platforms](#️-saas--hosted-enterprise-platforms)
+- [💻 Open-Source GitHub Projects](#-open-source-github-projects)
+- [📚 Additional Open-Source & Research Tools](#-additional-open-source--research-tools)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [⭐ Star History](#-star-history)
+- [💖 Support & Sponsor](#-support--sponsor)
+- [⚠️ Disclaimer](#️-disclaimer)
+
+---
+
+## 📊 Sector Overview & Market Dynamics
+
+The global brand protection and intellectual property infringement monitoring software market is valued at approximately **$1.21 billion to $3.20 billion** in 2026, projected to surpass **$3.7 billion to $6.6 billion by 2030–2034** at an estimated CAGR of 9.5% to 18%. 
+
+The sector is **moderately fragmented yet undergoing accelerated private-equity consolidation**: while legacy enterprise suites (such as Corsearch, ZeroFox, and MarkMonitor) capture large multi-year enterprise legal contracts through continuous M&A roll-ups, widespread disruption from generative AI, marketplace proliferation, and domain spoofing continues to fuel a diverse long-tail of agile AI-native startups and niche point solutions rather than resulting in a single winner-take-all monopoly.
+
+---
+
+## ☁️ SaaS & Hosted Enterprise Platforms
+
+The table below catalogs leading commercial brand safety, anti-piracy, and intellectual property infringement monitoring SaaS providers, sorted in descending order by estimated enterprise scale (annual revenue / valuation):
+
+| Product | Enterprise Scale (Revenue / Valuation) | Description & Key Capabilities | Specific Pricing (Starting Tier) | Free Tier / Free Trial Limits |
+| :--- | :--- | :--- | :--- | :--- |
+| **[ZeroFox](https://www.zerofox.com/)** | **~$250M+ ARR** / Peak $1.4B valuation (Acquired by Haveli Investments) | External cybersecurity & digital risk protection covering social media brand abuse, dark web leaks, phishing domains, and executive threat monitoring. | Starts at **$30,000/year** (~$2,500/month billed annually) for core digital risk bundles. | **No free tier**; 30-day guided proof-of-concept (PoC) evaluation available upon enterprise qualification. |
+| **[Corsearch](https://corsearch.com/)** | **~$200M–$337M ARR** / Multi-billion PE backing (Astorg / Cobepa) | Comprehensive brand protection and anti-counterfeiting suite featuring **TrademarkNow** for lifecycle trademark screening and digital content protection across global marketplaces. | Starts at **$18,000/year** (~$1,500/month billed annually) for entry-level brand monitoring packages. | **No free tier**; single-session interactive guided product demo with custom sample brand risk audit (no self-serve free trial). |
+| **[OpSec Security](https://www.opsecsecurity.com/)** | **~$100M+ ARR** / Acquired by Crane NXT for ~$270M | Hybrid physical and digital brand security platform integrating anti-counterfeiting holograms, on-product track-and-trace, and digital domain/marketplace threat monitoring. | Starts at **$24,000/year** (~$2,000/month billed annually) for digital brand monitoring modules. | **No free tier**; no public self-serve trial (custom enterprise compliance consultation and vulnerability assessment only). |
+| **[PhishLabs](https://www.phishlabs.com/)** | **~$60M+ ARR** (Part of Fortra) | Threat intelligence and digital risk protection platform specialized in enterprise phishing takedown, domain spoofing detection, and social media brand impersonation mitigation. | Starts at **$15,000/year** (~$1,250/month billed annually) for managed threat takedown feeds. | **No free tier**; prospective enterprise clients receive a scheduled demonstration with a one-time external domain threat exposure scan. |
+| **[Red Points](https://www.redpoints.com/)** | **~$35M–$50M ARR** / $80M+ total venture funding | AI-driven online counterfeit detection and automated marketplace takedown platform scanning 5,000+ online marketplaces and social networks with image recognition. | Starts at **$950/month** (~$11,400/year billed annually) for basic marketplace & trademark enforcement. | **No free tier**; no self-serve free trial (offers a scheduled personalized demo and free initial brand audit report). |
+| **[Pointer Brand Protection](https://www.pointerbrandprotection.com/)** | **~$25M ARR** (Division of Corsearch) | Specialized brand protection and anti-counterfeiting investigation services combining algorithmic web scraping with dedicated multilingual legal analysts. | Starts at **$12,000/year** (~$1,000/month billed annually) for focused marketplace coverage. | **No free tier**; no self-serve free trial (offers customized brand exposure audit upon consultation). |
+| **[MarqVision](https://marqvision.com/)** | **~$15M–$20M ARR** / Series A funded ($30M+ raised) | AI-powered IP operating system specialized in automated counterfeit detection, trademark infringement removal, and unauthorized distribution monitoring across Asian & global marketplaces. | Starts at **$1,000/month** ($12,000/year billed annually) for foundational e-commerce seller monitoring. | **No free tier**; provides a 14-day assisted pilot evaluation with initial catalog risk scanning upon sales qualification. |
+| **[BrandShield](https://www.brandshield.com/)** | **~$14M ARR** / ~$10M ARR (Privatized from London AIM) | Robust digital risk protection platform offering AI-driven threat hunting for phishing sites, rogue mobile apps, executive impersonation, and counterfeit listings. | Starts at **$1,800/month** (~$21,600/year billed annually) for core anti-phishing and domain surveillance. | **No free tier**; offers a scheduled live walkthrough and a complimentary external brand digital risk report. |
+| **[AppDetex](https://www.appdetex.com/)** | **~$10M–$15M ARR** (Tracer) | Mobile application and digital channel brand protection tracking rogue apps in third-party APK repositories, domain cybersquatting, and social abuse. | Starts at **$15,000/year** (~$1,250/month billed annually) for mobile app and domain detection tiers. | **No free tier**; custom demonstration and rogue app inventory scan upon consultation (no public self-serve trial). |
+| **[Smart Protection](https://smartprotection.com/)** | **~$8M–$12M ARR** / $20M+ venture funding | European brand protection and anti-piracy SaaS dedicated to fast content delisting, counterfeit product tracking, and digital media live-stream antipiracy protection. | Starts at **$10,000/year** (~$833/month billed annually) for single-vertical content monitoring. | **No free tier**; provides a free initial brand piracy diagnostic scan and structured platform demo upon request. |
+
+---
+
+## 💻 Open-Source GitHub Projects
+
+Explore verified open-source solutions for domain lookalike detection, typosquatting permutation generation, package registry abuse monitoring, code plagiarism analysis, and AI model copyright verification.
+
+Sorted by **GitHub Star Count** (descending):
+
+| Repository & Link | GitHub Stars | License | Primary Focus & Architecture |
+| :--- | :--- | :--- | :--- |
+| **[dnstwist](https://github.com/elceef/dnstwist)** | [![Stars](https://img.shields.io/github/stars/elceef/dnstwist?style=social&color=white)](https://github.com/elceef/dnstwist/stargazers) | Apache-2.0 | **Domain permutation & typosquatting engine**: The gold standard for detecting homoglyph attacks, keyboard-slip lookalikes, TLD swaps, and brand impersonation domains. Generates DNS queries, MX checks, and web screenshot comparisons. |
+| **[JPlag](https://github.com/jplag/JPlag)** | [![Stars](https://img.shields.io/github/stars/jplag/JPlag?style=social&color=white)](https://github.com/jplag/JPlag/stargazers) | GPL-3.0 | **Source code plagiarism detection**: Widely recognized academic and industry system finding code plagiarism and collusion across Java, C++, Python, JavaScript, and more using token-string comparison algorithms. |
+| **[opensquat](https://github.com/atenreiro/opensquat)** | [![Stars](https://img.shields.io/github/stars/atenreiro/opensquat?style=social&color=white)](https://github.com/atenreiro/opensquat/stargazers) | GPL-3.0 | **Newly registered domain lookalike scanner**: Proactively discovers newly registered domains that impersonate corporate brands by scanning daily WHOIS feeds and Certificate Transparency (CT) logs. |
+| **[urlcrazy](https://github.com/urbanadventurer/urlcrazy)** | [![Stars](https://img.shields.io/github/stars/urbanadventurer/urlcrazy?style=social&color=white)](https://github.com/urbanadventurer/urlcrazy/stargazers) | Ruby License | **Domain typosquatting & phishing candidate tester**: Generates 15 distinct domain typo variations (bitsquatting, homophones, vowel swapping) to detect brand squatting and email hijacking. |
+| **[Dolos](https://github.com/dodona-edu/dolos)** | [![Stars](https://img.shields.io/github/stars/dodona-edu/dolos?style=social&color=white)](https://github.com/dodona-edu/dolos/stargazers) | MIT | **Modern code plagiarism & similarity engine**: University of Ghent project designed to discover code plagiarism even through AST refactoring and code obfuscation. Features an interactive web visualizer and CLI. |
+| **[dnsmorph](https://github.com/edoardogerosa/dnsmorph)** | [![Stars](https://img.shields.io/github/stars/edoardogerosa/dnsmorph?style=social&color=white)](https://github.com/edoardogerosa/dnsmorph/stargazers) | MIT | **High-performance Go domain permutation engine**: Fast, multi-threaded domain lookalike and typo generator tailored for real-time reconnaissance and brand threat hunting. |
+| **[certainly](https://github.com/happycakefriends/certainly)** | [![Stars](https://img.shields.io/github/stars/happycakefriends/certainly?style=social&color=white)](https://github.com/happycakefriends/certainly/stargazers) | GPL-3.0 | **Offensive and defensive bitflip/typosquat traffic auditor**: Tool for evaluating typosquatting exposures and capturing misdirected traffic across network protocols. |
+| **[twistrs](https://github.com/haveibeensquatted/twistrs)** | [![Stars](https://img.shields.io/github/stars/haveibeensquatted/twistrs?style=social&color=white)](https://github.com/haveibeensquatted/twistrs/stargazers) | MIT | **Rust-powered domain permutation library**: Asynchronous, blazing-fast domain enumeration engine designed for high-scale brand monitoring backend pipelines. |
+| **[homographic_spoofing](https://github.com/basecamp/homographic_spoofing)** | [![Stars](https://img.shields.io/github/stars/basecamp/homographic_spoofing?style=social&color=white)](https://github.com/basecamp/homographic_spoofing/stargazers) | MIT | **Basecamp IDN homograph sanitizer**: Lightweight Ruby utility for detecting and sanitizing internationalized domain name (IDN) homoglyphic spoof attacks in URLs and inbound sender emails. |
+| **[domainthreat](https://github.com/PAST2212/domainthreat)** | [![Stars](https://img.shields.io/github/stars/PAST2212/domainthreat?style=social&color=white)](https://github.com/PAST2212/domainthreat/stargazers) | MIT | **Newly registered domain scraper & brand auditor**: Continuously crawls newly registered domains with subdomain enumeration, screenshot capture, and HTML fingerprint scraping. |
+| **[Logalyze](https://github.com/gokulkumaran03-tbg/Logalyze)** | [![Stars](https://img.shields.io/github/stars/gokulkumaran03-tbg/Logalyze?style=social&color=white)](https://github.com/gokulkumaran03-tbg/Logalyze/stargazers) | MIT | **AI counterfeit logo & seller authenticator**: Computer vision application that scans product listings to detect counterfeit trademark logos and unauthorized reseller storefronts. |
+| **[ROBIN++](https://github.com/Hannah1102/ROBIN)** | [![Stars](https://img.shields.io/github/stars/Hannah1102/ROBIN?style=social&color=white)](https://github.com/Hannah1102/ROBIN/stargazers) | Research / Open | **Dual-domain watermark for diffusion models**: IEEE 2026 framework providing copyright protection, intellectual property provenance, and tamper localization for AI-generated images. |
+| **[nettfiske](https://github.com/wisespace-io/nettfiske)** | [![Stars](https://img.shields.io/github/stars/wisespace-io/nettfiske?style=social&color=white)](https://github.com/wisespace-io/nettfiske/stargazers) | MIT | **Certificate transparency phishing & brand scanner**: Live-streams Certificate Transparency logs to pinpoint malicious lookalike SSL/TLS domain registrations in real time. |
+| **[SheriffMark](https://github.com/arunprasad/sheriffmark)** | [![Stars](https://img.shields.io/github/stars/arunprasad/sheriffmark?style=social&color=white)](https://github.com/arunprasad/sheriffmark/stargazers) | AGPL-3.0 | **Self-hosted brand protection platform**: Single-binary Go/SQLite solution that monitors lookalikes, typosquats, and combosquats with evidentiary records and takedown reporting. |
+| **[risk-monitor-tool](https://github.com/muzammilmunir/risk-monitor-tool)** | [![Stars](https://img.shields.io/github/stars/muzammilmunir/risk-monitor-tool?style=social&color=white)](https://github.com/muzammilmunir/risk-monitor-tool/stargazers) | MIT | **All-in-one brand risk monitoring dashboard**: Combines domain permutation alerts, social media account monitoring (Sherlock integration), spam scoring, and trademark search. |
+| **[brandguard](https://github.com/Baneado98/brandguard)** | [![Stars](https://img.shields.io/github/stars/Baneado98/brandguard?style=social&color=white)](https://github.com/Baneado98/brandguard/stargazers) | MIT | **Software supply-chain brand typosquatting monitor**: Detects malicious packages impersonating proprietary brands on npm, PyPI, and GitHub with automated takedown notice drafts and MCP server support. |
+| **[Copyscale](https://github.com/aneenajosan/Copyscale)** | [![Stars](https://img.shields.io/github/stars/aneenajosan/Copyscale?style=social&color=white)](https://github.com/aneenajosan/Copyscale/stargazers) | Open-Source | **AI training copyright infringement analyzer**: Multi-layer neural network evaluating whether machine learning diffusion and vision models incorporated copyrighted artworks in training sets. |
+
+---
+
+## 📚 Additional Open-Source & Research Tools
+
+- **[Sieve Scope](https://pypi.org/project/sieve-scope/)** — Fully local, zero-dependency, deterministic code plagiarism and structural similarity detection engine with a 7-bit observation space (H1–H7) for explainable forensic analysis.
+- **[csim-ai](https://pypi.org/project/csim-ai/)** — Neural-augmented Python code plagiarism detector pairing ANTLR4 parse-tree normalization with contrastive bi-encoders and GBDT fusion.
+- **[UniMark](https://ar5iv.labs.arxiv.org/html/2512.12324)** — Multimodal watermarking and AI-generated content identification toolkit for tracking intellectual property in synthetic data.
+- **[semantic-copycat-minner](https://packages.ecosyste.ms/registries/pypi.org/packages/semantic-copycat-minner)** — Semantic analysis tool detecting AI-generated code derived from copyrighted source repositories.
+- **Community n8n Brand Alert Workflows** — Open-source automation blueprints integrating Slack, Telegram, Jira, and WHOIS APIs for automated triage and DMCA notice generation.
+
+---
+
+## 🤝 How to Contribute
+
+We welcome additions, corrections, and updates from brand protection professionals, security researchers, and developers!
+
+1. 🍴 Fork the repository.
+2. 🌿 Create a descriptive branch: `git checkout -b add-tool-name`.
+3. ✍️ Update `README.md` following the standardized table structure (include specific starting pricing, explicit free trial/tier limits, or GitHub star badge links).
+4. 🚀 Submit a Pull Request detailing the tool's focus and licensing.
+
+---
+
+## ⭐ Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Intellectual-Property-Infringement-Monitors&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Intellectual-Property-Infringement-Monitors&type=date&legend=top-left)
+
+---
+
+## 💖 Support & Sponsor
+
+Thank you for visiting and using this resource! If you find this directory valuable for your security team, research, or brand monitoring operations, please consider:
+- ⭐ **Starring** the repository on GitHub
+- 🍴 **Forking** and contributing new tools
+- 📢 **Sharing** this guide with colleagues across cybersecurity and legal tech
+
+Want to support ongoing maintenance and new curated security projects?  
+👉 **[Sponsor on GitHub / Buy a Coffee](https://github.com/sponsors/ishandutta2007)** ☕
+
+---
+
+## ⚠️ Disclaimer
+
+- 📌 This list is a **community-curated directory** created for educational and informational purposes. It does not constitute formal legal advice or an endorsement of any particular vendor.
+- ⚖️ Intellectual property monitoring, domain reconnaissance, and automated takedown workflows must comply with relevant local and international copyright and privacy frameworks (e.g., DMCA, GDPR, ICANN UDRP). **Qualified IP counsel is indispensable** for formal filings.
+- 📄 **Takedown notices generated by monitoring tools are advisory drafts**, not binding legal judgments. The rights holder remains solely liable for claims served to domain registrars, hosting companies, and search engines.
+- 🔒 Self-hosted security platforms require ongoing vulnerability patching, hardened access controls, and strict audit logs to guarantee that collected evidence meets admissibility standards for legal proceedings.
